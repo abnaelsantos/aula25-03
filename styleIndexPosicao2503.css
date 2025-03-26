@@ -1,0 +1,41 @@
+.container {
+    position: relative; 
+    width: 100%; 
+    height: 100vh; 
+}
+
+#quadrado1 {
+    display: flex;
+    margin-top: 1%;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    
+}
+#quadrado2 {
+    position: absolute;
+    right: 1px;
+    top: 1px;
+    display: flex;
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+#quadrado3 {
+    position: absolute;
+    right: 1px;
+    bottom: 1%;
+    display: flex;
+    width: 200px;
+    height: 200px;
+    background-color: green;
+}
+#quadrado4 {
+    position: absolute;
+    left: 1px;
+    bottom: 1%;
+    display: flex;
+    width: 200px;
+    height: 200px;
+    background-color: gold;
+}
